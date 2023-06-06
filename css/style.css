@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@
 body {
     background-color: #292a2d;
 }
-
+/* Header Style code */
 header nav ul {
     text-align: end;
 
@@ -34,4 +35,90 @@ header nav ul li img {
 
 header nav ul li span {
     color: white;
+}
+/* Main style code  */
+
+.googleImg {
+    width: 300px;
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 530px;
+}
+
+.search {
+    width: 600px;
+    height: 40px;
+    border: 1px solid #bdc1c6;
+    border-radius: 50px;
+}
+
+.search:hover {
+    background-color: #292c2f;
+}
+
+.search-input-icons>div {
+    background-color: #292a2d;
+    margin-top: 30px;
+    margin-left: 380px;
+
+}
+
+.search-input-icons .icons {
+    width: 60px;
+    margin-left: 900px;
+    overflow: hidden;
+    margin-top: -35px;
+}
+
+.search-input-icons .icons img {
+    overflow: clip;
+    box-sizing: border-box;
+    width: 25px;
+}
+
+.search-input-icons .searchImage img {
+    overflow: clip;
+    box-sizing: border-box;
+    width: 25px;
+
+}
+
+.search-input-icons .searchImage {
+    margin-inline-end: 568px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.buttonsDes button {
+    font-family: HelveticaNeue, 'Noto Naskh Arabic UI', Arial, sans-serif;
+    background-color: #2e3039;
+    border: 1px solid #65676e;
+    height: 30px;
+    width: 140px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.buttonsDes {
+    height: 9px;
+    width: 20%;
+    padding: 8px;
+    margin-top: 20px;
+    margin-left: 550px;
+    border: none;
+    display: flex;
+    outline: none;
+}
+.GoogleOffered{
+    margin-top: 70px;
+    margin-left: 600px;
+    
+}
+.GoogleOffered p{
+    color: white;
+    
 }
