@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #292a2d;
+}
+
+header nav ul {
+    text-align: end;
+
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+header nav ul li img {
+    margin-top: 2px;
+    border: 3px solid #37383b;
+    ;
+    border-radius: 50%;
+}
+
+header nav ul li span {
+    color: white;
+}
